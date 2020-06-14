@@ -48,7 +48,7 @@
       <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold" id="myNavbar">
         <ul class="navbar-nav">
           <li class="nav-item text-dark">
-            <a href="#home" class="nav-link text-dark m-2 menu-item fadeIn animated">Home</a>
+            <a href="#home" class="nav-link  m-2 menu-item fadeIn animated">Home</a>
           </li>
           <li class="nav-item">
             <a href="#about" class="nav-link m-2 menu-item fadeIn animated">About</a>
@@ -68,16 +68,21 @@
 <!-- end of navbar/HEADER -->
 <!-- VIDEO-->
 <section style="background-color: red;">
-  <div id="home" class="text-center" style="position: absolute; overflow: hidden; z-index: 0; pointer-events: none; top: -6px; right: -6px; bottom: -17px; left: -6px; background-color: black;">
+  <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+  <!-- <div id="home" class="text-center" style="position: absolute; overflow: hidden; z-index: 0; pointer-events: none; top: -6px; right: -6px; bottom: -17px; left: -6px; background-color: black;">
     <video autoplay muted loop id="video" style="position: absolute; height: auto; width: auto; min-width: 100%; min-height: 100%; max-width: 10000%; max-height: 10000%; top: 50%; left: 50%; transform: translate(-50%, -50%); pointer-events: none;" >
         <source src="vid/vid.mp4" type="video/mp4 ">
       </video>
-</div>
+  </div> -->
+
 <div class="text-light text-md-right text-center banner ">
-<h1 id="typed" class="roll-in-blurred-top text-focus-in text-center  element font-weight-bold" style="font-size: 75px;">Welcome</h1>
+<h1 id="typed" class="roll-in-blurred-top text-focus-in text-center  element font-weight-bold" style="font-size: 75px;"></h1>
 <script>
   var typed = new Typed('#typed',{
-              strings:["First sentence","Hello!","The name is Abdallah","Glad to see you here."],
+              strings:["Hello!","The name is Abdallah","Glad to see you here."],
+              loop: true,
               backSpeed: 40,
               typeSpeed: 100,
               showCursor:false
@@ -97,15 +102,16 @@
         <div class="col-lg-12">
             <i class="fas fa-users fa-10x" data-aos="zoom-out" data-aos-duration="1000"></i>
           <h1 class="display-4 mb-4  font-weight-bold " data-aos="zoom-out">About</h1>
-          <div class="underline mb-4"></div>
           <div class="fluid-container">
+            <!-- <div class="underline mb-4" style="background-color: red;"> dasdas</div> -->
+
             <div class="row my-5">
               <div class="col-lg-4 col-md-6 col-sm-6 hvr-icon-grow" data-aos="fade-up" data-aos-duration="2000">
-                  <img src="images/personal1.jpg"  class="rounded-circle hvr-icon" width="300px" height="300px" alt="About us">
+                  <img src="images/personal1_bw.jpg"  class="rounded-circle hvr-icon" width="300px" height="300px" alt="About us">
               </div>
               <div class="col-lg-8 col-md-6 col-sm-6 hvr-icon-grow text-center" data-aos="fade-up" data-aos-duration="2000">
-                <p class="lead fadeIn" style="font-size: 30px;">
-                  Hello!  Allow me to introduce myself. My name is Abdallah Barazi, 20 year old. I graduated from LAU in June 2020. Every since i was a teenager i have been passionate about Computers and technology. From Staying up to date with the latest Google IO events to waiting eagerly for the Apple Keynotes Every year. I play video games, alot. I even develop games. Perhaps we can hook up sometimes.
+                <p class="lead fadeIn text-justify" style="font-size: 30px;">
+                  The name is Abdallah. I enjoy developing apps and games. I also like experimenting, alot. Ive been coding every since school years. And passionate ever since. I enjoy creating something useful out of nothing.I have many interests, but lately I've been spending quite a bit of time on iOS development since I enjoy creating iOS apps diving deeper in the Apple ecosystem.
                   <!-- <br> <img src="images/steam.svg" alt="Steam Logo" width="150" height="150" style="color: white;"> -->
 
                 </p>           
@@ -117,8 +123,7 @@
   </section>
 <!-- End of About us-->
 
-<!-- START OF PROGRAMS-->
-<!-- programs title-->
+<!-- START OF Projects-->
 <section >
   <section class="p-3 OurProgramsTitle">
       <div class="container-fluid">
@@ -211,51 +216,8 @@
           </div>
         </div>
     </section>
-<!-- END OF PROGRAMS-->
-    <!-- ======= Cta Section ======= -->
-    <!-- <section id="cta" class="cta">
-      <div class="container">
+    <!-- End OF Projects-->
 
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
-          </div>
-        </div>
-
-      </div>
-    </section> -->
-    <!-- End Cta Section -->
-
-<!-- START OF COLLABORATIONS-->
-        <!-- <section id="colab" class="p-5 colab ">
-            <div class="container-fluid">
-              <div class="row text-white text-center">
-                <div class="col m-4">
-                  <h1 class="display-4 mb-4" data-aos="zoom-in" >We take pride in our partners.</h1>
-                  <p class="lead">              </p>
-                    <div class="row my-5">
-                        <div class="container-fluid ">
-                            <section class=" text-center md-2 ">
-                              <div class="hvr-float">
-
-                            <img src="images/logo1.png" class="partnercircle hvr-icon" data-aos="zoom-in-up" data-aos-duration="500">
-                            <img src="images/logo2.png" class="partnercircle hvr-icon" data-aos="zoom-in-up" data-aos-duration="500"> 
-                            <img src="images/logo3.png" class="partnercircle hvr-icon" data-aos="zoom-in-up" data-aos-duration="500">
-                            <img src="images/logo4.png" class="partnercircle hvr-icon" data-aos="zoom-in-up" data-aos-duration="500">
-                            <img src="images/logo5.png" class="partnercircle hvr-icon" data-aos="zoom-in-up" data-aos-duration="500">
-                            <img src="images/logo6.png" class="partnercircle hvr-icon" data-aos="zoom-in-up" data-aos-duration="500">
-                          </div>
-                            </section>
-                          </div>
-                  </div>
-                </div>
-              </div>
-          </section> -->
-<!-- END OF COLLABORATIONS -->
 <!-- START OF CONTACT US-->
 <section id="contact">
 <div class="container-fluid" style="background-color:#000000">
@@ -266,7 +228,7 @@
     </div>
         
     <div class="col-sm-8 contact-form">
-    <form id="contact" action="mailto:boudzbazz@gmail.com" method="post" class="form" role="form" >
+    <form id="contact" action="https://formspree.io/xjvarjeb" method="post" class="form" role="form" >
     <div class="row">
     <div class="col-xs-6 col-md-6 form-group" style="margin-top: 50px">
     <input class="form-control" id="name" name="name" placeholder="Name" type="text" />
@@ -276,7 +238,7 @@
     <br />
     <div class="row">
     <div class="col-xs-12 col-md-12 form-group">
-    <button class="bttn-unite bttn-md bttn-primary pull-right" type="submit ac">Submit</button>             
+    <button class="bttn-unite bttn-md bttn-primary pull-right" type="submit">Submit</button>             
 
     </form>
     </div>
@@ -318,7 +280,7 @@
       </div>
       <!-- Grid row-->
       <div class="container-fluid text-center" style="background-color: #000000">
-        <h4 class="text-center text-light m-2" style="font-size: 15px;"> © Copyright 2019</h4>
+        <h4 class="text-center text-light m-2" style="font-size: 15px;">Copyright 2020 ©</h4>
       </div> 
     </div>
   
